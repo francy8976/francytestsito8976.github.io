@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86">
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="bootstrap/css/Cazzo.css" rel="stylesheet">
+<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color:#212121;">
+
+<script src="jquery-3.5.1.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $("div#video a").click(function(e) {
+        e.preventDefault();
+        
+        $("#drive").attr("src", $(this).attr("href"));
+    })
+});
+</script>
+
+<div align="center">
+	<iframe allowfullscreen
+		src="https://r2---sn-hpa7kn7d.c.drive.google.com/videoplayback?expire=1596216099&ei=4xokX6LmMuGe7gKU84vgCw&ip=62.98.4.235&cp=QVNOWENfVVBXSlhOOlpLUzhwQzJNX1BwTzBvYzNSYlB6d3RLQ3VLMUxGbHJzSEZQOHZrYWpacUo&id=e72635b85c53e2c6&itag=37&source=webdrive&requiressl=yes&mh=q7&mm=32&mn=sn-hpa7kn7d&ms=su&mv=m&mvi=2&pl=16&sc=yes&ttl=transient&susc=dr&driveid=13A2HU2X1kOPsCGpe3ilABEt0_33lOOgb&app=texmex&mime=video/mp4&vprv=1&prv=1&dur=1512.199&lmt=1587371402972538&mt=1596201559&sparams=expire,ei,ip,cp,id,itag,source,requiressl,ttl,susc,driveid,app,mime,vprv,prv,dur,lmt&sig=AOq0QJ8wRAIgR-awl8aoLb5_z0jn2A87GK-ypDAgMX-fO1dCE58e654CIDTkYqbTtXiBsqcDtNQQuGPNAfM0j-Mov9j1O9IYUkJ4&lsparams=mh,mm,mn,ms,mv,mvi,pl,sc&lsig=AG3C_xAwRgIhAKNrF3-PRwbYZ-5yHOjB0f9VXyDBnN6ewNqlOr1HkZs_AiEA4pKvd7cg5b6GLJzeHLnHm7a0ExXnxjc1LANyv7qQjPg=&cpn=f50xlbvdjdLyWvre&c=WEB_EMBEDDED_PLAYER&cver=20200728"
+	</iframe>
+</div>
+                             
+</body>
+</html>

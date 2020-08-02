@@ -554,7 +554,7 @@ textarea {
 	float: left;
 }
 .site-name {
-	font-size: 36px;
+	font-size: 32px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
@@ -715,4 +715,20 @@ textarea {
 	filter: alpha(opacity=100);
 	-webkit-transform: scale(1);
 	transform: scale(1);
+}
+
+.iframe-container {
+  overflow: hidden;
+  // 16:9 aspect ratio
+  padding-top: 56.25%;
+  position: relative;
+}
+ 
+.iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
 }
