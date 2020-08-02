@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,13 +16,14 @@ $(document).ready(function(){
     $("div#video a").click(function(e) {
         e.preventDefault();
         
-        $("#drive").attr("src", $(this).attr("href"));
+        $("#drive").attr("href", $(this).attr("href"));
     })
 });
 </script>
 
 <div class="iframe-container"><div align="center">
-  <iframe id="drive" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe> 
+  <iframe id="" width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe> 
+  <a id="drive" class="btn btn-primary" href="ALove_is_war.html" role="button">Se non riesci a visualizzare l episodio PREMI QUI</a>
 </div>
 
 <!-- <div align="center"><iframe id="drive" src="https://drive.google.com/file/d/13A2HU2X1kOPsCGpe3ilABEt0_33lOOgb/preview" width="1280" height="720" allowfullscreen frameborder="0"></iframe>
